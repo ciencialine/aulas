@@ -1,0 +1,11 @@
+site_name: Aulas
+site_url: https://ciencialine.github.io/aulas/
+repo_name: ciencialine/aulas
+repo_url: https://github.com/ciencialine/aulas
+nav:
+  - Home: index.md
+  - Manifesto: manifesto.md
+theme:
+  name: material
+  features:
+    - search.share
