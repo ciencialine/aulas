@@ -3,7 +3,7 @@
 ## Requisitos
 
 * Ter conta no GitHub.
-* NotebookLM público, focado em **somente uma** habilidade BNCC específica.
+* NotebookLM público, focado em um conteúdo de aula referente a uma habilidade BNCC.
 
 ## NotebookLM
 
