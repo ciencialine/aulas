@@ -52,7 +52,7 @@ body:
   - type: input
     id: unidade_tematica
     attributes:
-      label: Unidade temática
+      label: Unidade temática BNCC
       description: 'Exemplo: Evolução dos Modelos Atômicos'
       placeholder: Evolução dos Modelos Atômicos
     validations:
@@ -60,7 +60,7 @@ body:
   - type: input
     id: objeto_conhecimento
     attributes:
-      label: Objeto de conhecimento
+      label: Objeto de conhecimento BNCC
       description: 'Exemplo: Evolução dos Modelos Atômicos'
       placeholder: Evolução dos Modelos Atômicos
     validations:
@@ -76,7 +76,7 @@ body:
   - type: textarea
     id: habilidade
     attributes:
-      label: Habilidade
+      label: Habilidade BNCC
       description: 'Exemplo: Identificar e analisar os modelos atômicos ao longo da história.'
       placeholder: Descreva a habilidade BNCC relacionada
     validations:
