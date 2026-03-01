@@ -7,16 +7,25 @@ assignees: ''
 
 ---
 
-Titulo resumido
+Instruções de como contribuir [https://ciencialine.github.io/aulas/contribuindo/](https://ciencialine.github.io/aulas/contribuindo/)
 
-Título Notebook LM
+* **Titulo resumido:**
+  _Exemplo: Evolução dos Modelos Atômicos_
 
-Link Notebook LM
+* **Título Notebook LM:**
+  _Exemplo: Evolução dos Modelos Atômicos_
 
-Unidade temática
+* **Link Notebook LM:**
+  _Exemplo: Evolução dos Modelos Atômicos_
 
-Objeto de conhecimento
+* **Unidade temática:**
+  _Exemplo: Evolução dos Modelos Atômicos_
 
-Código BNCC
+* **Objeto de conhecimento:**
+  _Exemplo: Evolução dos Modelos Atômicos_
 
-Habilidade
+* **Código BNCC:**
+  _Exemplo: Evolução dos Modelos Atômicos_
+
+* **Habilidade:**
+  _Exemplo: Evolução dos Modelos Atômicos_
