@@ -2,7 +2,7 @@
 name: Adicionar Notebook LM
 about: Adicionar contribuição de Notebook LM com conteúdo BNCC
 title: Contribuição Notebook LM
-labels: ''
+labels: 'notebook-lm'
 assignees: ''
 
 ---
