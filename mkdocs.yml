@@ -15,6 +15,7 @@ nav:
       - Estados físicos da matéria: 9/ciencias/estados-fisicos-da-materia.md
   - Contribuindo: contribuindo.md
   - Manifesto: manifesto.md
+  - Sobre: sobre.md
 theme:
   name: material
   features:
