@@ -55,7 +55,7 @@ Que seja movimento.
 Que seja ponte.
 Que seja oportunidade.
 
+Porque aprender nunca deveria ser limitado pela origem.
+
 Aline Vilar Machado Nils
 Professora, Bióloga, Pedagoga e Doutora em Ciências
-
-Porque aprender nunca deveria ser limitado pela origem.
