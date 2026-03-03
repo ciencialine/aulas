@@ -6,7 +6,7 @@ e Médio, totalmente baseados nas habilidades da BNCC (Base Nacional Comum Curri
 Todo o conteúdo aqui disponibilizado foi pensado para ser utilizado em conjunto com a plataforma NotebookLM, ajudando
 você a aprofundar seus conhecimentos, tirar dúvidas do dia a dia e expandir o que é visto em sala de aula.
 
-# Por que "Caderno Aberto"?
+## Por que "Caderno Aberto"?
 O nome Caderno Aberto não foi escolhido por acaso. Ele une duas ideias centrais deste projeto:
 
 O Caderno: É o símbolo clássico do estudante, mas aqui ele ganha um novo significado. Ele faz uma conexão direta com o NotebookLM (que significa "caderno inteligente" em inglês), a ferramenta de Inteligência Artificial que usaremos para interagir com os materiais de estudo.
