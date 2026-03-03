@@ -1,1 +1,0 @@
-# Camadas internas da Terra
