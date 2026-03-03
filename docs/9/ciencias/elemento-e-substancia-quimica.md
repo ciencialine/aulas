@@ -14,7 +14,7 @@ Matéria e energia
 
 ## Objeto de conhecimento
 
-Estrutura da matéria.
+Estrutura da matéria
 
 ## Código BNCC
 
@@ -22,5 +22,5 @@ Estrutura da matéria.
 
 ## Habilidade
 
-Identificar modelos que descrevem a estrutura da matéria (constituição do átomo e composição de moléculas simples) e
-reconhecer sua evolução histórica.
+Identificar modelos que descrevem a estrutura da matéria (constituição do átomo e composição de moléculas simples) e reconhecer sua evolução histórica.
+
