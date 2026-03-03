@@ -10,11 +10,11 @@
 
 ## Unidade temática
 
-Matéria e energia
+Matéria e Energia
 
 ## Objeto de conhecimento
 
-Estrutura da matéria.
+Estrutura da Matéria
 
 ## Código BNCC
 
@@ -22,5 +22,5 @@ Estrutura da matéria.
 
 ## Habilidade
 
-Investigar as mudanças de estado físico da matéria e explicar essas transformações com base no modelo de constituição
-submicroscópica
+Investigar as mudanças de estado físico da matéria e explicar essas transformações com base no modelo de constituição submicroscópica
+

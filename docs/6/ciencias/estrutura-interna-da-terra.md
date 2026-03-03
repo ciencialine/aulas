@@ -22,6 +22,5 @@ Forma, estrutura e Movimentos da Terra
 
 ## Habilidade
 
-Identificar as diferentes camadas que estruturam o planeta Terra (da estrutura interna à atmosfera) e suas principais
-características.
+Identificar as diferentes camadas que estruturam o planeta Terra (da estrutura interna à atmosfera) e suas principais características.
 

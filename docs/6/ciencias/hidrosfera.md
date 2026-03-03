@@ -14,7 +14,7 @@ Terra e Universo
 
 ## Objeto de conhecimento
 
-Forma, estrutura e Movimentos da Terra
+Forma, estrutura e movimentos da Terra
 
 ## Código BNCC
 
@@ -22,6 +22,5 @@ Forma, estrutura e Movimentos da Terra
 
 ## Habilidade
 
-Identificar as diferentes camadas que estruturam o planeta Terra (da estrutura interna à atmosfera) e suas principais
-características.
+Identificar as diferentes camadas que estruturam o planeta Terra (da estrutura interna à atmosfera) e suas principais características.
 
