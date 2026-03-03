@@ -5,16 +5,16 @@ repo_url: https://github.com/ciencialine/caderno-aberto
 nav:
   - Home: index.md
   - 6o ano:
-    - Ciências:
-      - 6/ciencias/ciclo-das-rochas-e-eras-geologicas.md
-      - 6/ciencias/estrutura-interna-da-terra.md
-      - 6/ciencias/hidrosfera.md
+      - Ciências:
+          - 6/ciencias/ciclo-das-rochas-e-eras-geologicas.md
+          - 6/ciencias/estrutura-interna-da-terra.md
+          - 6/ciencias/hidrosfera.md
   - 9o ano:
-    - Ciências:
-      - 9/ciencias/elemento-e-substancia-quimica.md
-      - 9/ciencias/estados-fisicos-da-materia.md
-      - 9/ciencias/evolucao-dos-modelos-atomicos.md
-      - 9/ciencias/transformacoes-fisicas-e-quimicas.md
+      - Ciências:
+          - 9/ciencias/elemento-e-substancia-quimica.md
+          - 9/ciencias/estados-fisicos-da-materia.md
+          - 9/ciencias/evolucao-dos-modelos-atomicos.md
+          - 9/ciencias/transformacoes-fisicas-e-quimicas.md
   - Contribuindo: contribuindo.md
   - Manifesto: manifesto.md
   - Sobre: sobre.md
