@@ -1,2 +1,3 @@
 .idea
 .mkdocs-venv
+.issues-token.sh
