@@ -1,4 +1,5 @@
 #!/bin/bash
+source formataNome.sh
 
 ANO="6o ano"
 DISCIPLINA="Ciências"
@@ -12,15 +13,15 @@ HABILIDADE_BNCC="Identificar diferentes tipos de rocha, relacionando a formaçã
 
 aplicaTemplate() {
 
-  TITULO_RESUMIDO=$1
-  TITULO_NBLM=$2
-  LINK_NBLM=$3
-  UNIDADE_TEMATICA_BNCC=$4
-  OBJ_CONHECIMENTO_BNCC=$5
-  COD_BNCC=$6
-  HABILIDADE_BNCC=$7
+  local TITULO_RESUMIDO=$1
+  local  TITULO_NBLM=$2
+  local LINK_NBLM=$3
+  local  UNIDADE_TEMATICA_BNCC=$4
+  local OBJ_CONHECIMENTO_BNCC=$5
+  local   COD_BNCC=$6
+  local  HABILIDADE_BNCC=$7
 
-  TEMPLATE="template.md"
+  local  TEMPLATE="template.md"
 
   sed \
     -e "s|%TITULO_RESUMIDO%|${TITULO_RESUMIDO}|g" \
@@ -31,13 +32,6 @@ aplicaTemplate() {
     -e "s|%COD_BNCC%|${COD_BNCC}|g" \
     -e "s|%HABILIDADE_BNCC%|${HABILIDADE_BNCC}|g" \
     "${TEMPLATE}"
-}
-
-formataNome() {
-  echo "$1" \
-    | tr '[:upper:]' '[:lower:]' \
-    | iconv -f utf8 -t ascii//TRANSLIT \
-    | tr ' ' '-'
 }
 
 DIR_ANO="${ANO//[^0-9]/}"
