@@ -9,9 +9,14 @@ curl -s -L \
   -H "Authorization: Bearer ${TOKEN_ISSUES}" \
   -H "X-GitHub-Api-Version: 2022-11-28" \
   "https://api.github.com/repos/ciencialine/caderno-aberto/issues?state=open&assignee=ciencialine" | \
-jq -c '.[] | {number, body}'  | while read -r item; do
+jq -c '.[] | {number, body, user_id: .user.id, user_login: .user.login}'  | while read -r item; do
   number=$(echo "$item" | jq -r '.number')
   body=$(echo "$item" | jq -r '.body')
+  user_id=$(echo "$item" | jq -r '.user_id')
+  user_login=$(echo "$item" | jq -r '.user_login')
+
+  co_author="Co-authored-by: ${user_login} <${user_id}+${user_login}@users.noreply.github.com>"
+  echo -e "Contribuição #${number}\n\n${co_author}"
 
   readarray -d '' valores < <(echo "$body" | awk '
   /^### / {
@@ -32,7 +37,6 @@ jq -c '.[] | {number, body}'  | while read -r item; do
       }
   }')
 
-  echo "Contribuição #${number}"
   aplicaTemplate \
     "${valores[0]//$'\n'/ }" \
     "${valores[1]//$'\n'/ }" \
