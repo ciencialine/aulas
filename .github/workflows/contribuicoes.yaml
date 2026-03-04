@@ -14,20 +14,19 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Processa contribuições
+        env:
+          TOKEN_ISSUES: ${{ secrets.TOKEN_ISSUES }}
         run: |
           ./issues.sh
           ./build-mkdocs.sh
 
       - name: Commita e envia as alterações
         run: |
-          # Configura o usuário do git como o bot do GitHub Actions
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
-          # Adiciona os arquivos modificados
           git add .
           
-          # Verifica se há mudanças reais antes de commitar (evita erro no workflow)
           if git diff-index --quiet HEAD --; then
             echo "Nenhuma alteração para commitar."
             exit 1

@@ -2,7 +2,7 @@
 
 source build-contrib.sh
 
-source .issues-token.sh
+#source .issues-token.sh
 
 curl -s -L \
   -H "Accept: application/vnd.github+json" \
