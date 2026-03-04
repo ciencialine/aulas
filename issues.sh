@@ -32,7 +32,7 @@ jq -c '.[] | {number, body}'  | while read -r item; do
       }
   }')
 
-  echo "Processando issue #$number"
+  echo "Contribuição #${number}"
   aplicaTemplate \
     "${valores[0]//$'\n'/ }" \
     "${valores[1]//$'\n'/ }" \

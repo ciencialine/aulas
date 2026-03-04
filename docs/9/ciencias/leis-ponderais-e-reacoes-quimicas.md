@@ -22,5 +22,5 @@ Aspectos quantitativos das transformações químicas
 
 ## Habilidade
 
-Comparar quantidades de reagentes e produtos envolvidos em transformações químicas, estabelecendo a proporção entre as suas massas...
+Comparar quantidades de reagentes e produtos envolvidos em transformações químicas, estabelecendo a proporção entre as suas massas.
 
